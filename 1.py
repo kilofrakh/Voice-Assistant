@@ -19,7 +19,6 @@ import time
 import requests
 import shutil
 from twilio.rest import Client
-from clint.textui import progress
 from ecapture import ecapture as ec
 from bs4 import BeautifulSoup
 import win32com.client as wincl
