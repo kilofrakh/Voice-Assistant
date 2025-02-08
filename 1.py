@@ -23,7 +23,8 @@ from ecapture import ecapture as ec
 from bs4 import BeautifulSoup
 import win32com.client as wincl
 from urllib.request import urlopen
-
+import win32com.client as wincl
+import datetime
 
 # Initialize the speech engine
 engine = pyttsx3.init('sapi5')
@@ -140,8 +141,8 @@ if __name__ == '__main__':
             strTime = datetime.datetime.now().strftime("% H:% M:% S")
             speak(f"Sir, the time is {strTime}")
 
-        elif 'open opera' in query:
-            codePath = r"C:\\Users\\GAURAV\\AppData\\Local\\Programs\\Opera\\launcher.exe"
+        elif 'open code' in query:
+            codePath = "C:\Voice-Assistant"
             os.startfile(codePath)
 
         elif 'email to Abdo Kameen' in query:
