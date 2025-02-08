@@ -365,7 +365,7 @@ if __name__ == '__main__':
 				speak(" City Not Found ")
 			
 		elif "send message " in query:
-				# You need to create an account on Twilio to use this service
+				
 				account_sid = 'Account Sid key'
 				auth_token = 'Auth token'
 				client = Client(account_sid, auth_token)
