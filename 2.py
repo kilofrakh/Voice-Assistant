@@ -331,8 +331,6 @@ if __name__ == '__main__':
 			print(file.read())
 			speak(file.read(6))
 
-					
-		# NPPR9-FWDCX-D2C8J-H872K-2YT43
 		elif "Your Slave" in query:
 			
 			wishMe()
@@ -342,7 +340,7 @@ if __name__ == '__main__':
 		elif "weather" in query:
 			
 			
-			api_key = "Api key"
+			api_key = "NPPR9-FWDCX-D2C8J-H872K-2YT43"
 			base_url = "http://api.openweathermap.org / data / 2.5 / weather?"
 			speak(" City name ")
 			print("City name : ")
@@ -381,11 +379,15 @@ if __name__ == '__main__':
 		elif "wikipedia" in query:
 			webbrowser.open("wikipedia.com")
 
+
+
+        
 		elif "Good Morning" in query:
 			speak("A warm" +query)
 			speak("How are you Mister")
 			speak(assname)
 
+        
 		elif "will you be my gf" in query or "will you be my bf" in query: 
 			speak("I'm not sure about, may be you should give me some time")
 
@@ -395,6 +397,7 @@ if __name__ == '__main__':
 		elif "i love you" in query:
 			speak("It's hard to understand")
 
+    
 		elif "what is" in query or "who is" in query:
 			
 			
@@ -406,5 +409,5 @@ if __name__ == '__main__':
 				speak (next(res.results).text)
 			except StopIteration:
 				print ("No results")
-
+        
 		
