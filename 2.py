@@ -100,8 +100,6 @@ def sendEmail(to, content):
 if __name__ == '__main__':
 	clear = lambda: os.system('cls')
 	
-	# This Function will clean any
-	# command before execution of this python file
 	clear()
 	wishMe()
 	username()
@@ -110,10 +108,7 @@ if __name__ == '__main__':
 		
 		query = takeCommand().lower()
 		
-		# All the commands said by user will be 
-		# stored here in 'query' and will be
-		# converted to lower case for easily 
-		# recognition of command
+		# All the commands said by user will be
 		if 'wikipedia' in query:
 			speak('Searching Wikipedia...')
 			query = query.replace("wikipedia", "")
