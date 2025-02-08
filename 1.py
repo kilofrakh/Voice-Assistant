@@ -131,7 +131,7 @@ if __name__ == '__main__':
         elif 'play music' in query or "play song" in query:
             speak("Here you go with music")
             # music_dir = "G:\\Song"
-            music_dir = "C:\\Users\\GAURAV\\Music"
+            music_dir = "C:\\Users\\Abdo Kameen\\Music"
             songs = os.listdir(music_dir)
             print(songs)
             random = os.startfile(os.path.join(music_dir, songs[1]))
@@ -144,7 +144,7 @@ if __name__ == '__main__':
             codePath = r"C:\\Users\\GAURAV\\AppData\\Local\\Programs\\Opera\\launcher.exe"
             os.startfile(codePath)
 
-        elif 'email to gaurav' in query:
+        elif 'email to Abdo Kameen' in query:
             try:
                 speak("What should I say?")
                 content = takeCommand()
@@ -217,8 +217,8 @@ if __name__ == '__main__':
             speak("If you talk then definitely your human.")
 
         elif "why you came to world" in query:
-            speak("Thanks to Gaurav. further It's a secret")
-
+            speak("Thanks to Abdo Kameen. further It's a secret")
+        
         elif 'power point presentation' in query:
             speak("opening Power Point presentation")
             power = r"C:\\Users\\GAURAV\\Desktop\\Minor Project\\Presentation\\Voice Assistant.pptx"
@@ -228,10 +228,10 @@ if __name__ == '__main__':
             speak("It is 7th sense that destroy all other senses")
 
         elif "who are you" in query:
-            speak("I am your virtual assistant created by Gaurav")
+            speak("I am your virtual assistant created by Abdo Kameen")
 
         elif 'reason for you' in query:
-            speak("I was created as a Minor project by Mister Gaurav ")
+            speak("I was created as a Minor project by Mister Abdo Kameen ")
 
         elif 'change background' in query:
             ctypes.windll.user32.SystemParametersInfoW(20, 0, "Location of wallpaper", 0)
